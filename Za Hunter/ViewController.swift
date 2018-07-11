@@ -17,7 +17,9 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
     let locationManager = CLLocationManager()
     var region = MKCoordinateRegion()
     var mapItems = [MKMapItem]()
+    
     var selectedMapItem = MKMapItem()
+    
     
     
     
