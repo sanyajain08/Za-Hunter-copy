@@ -82,15 +82,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5q-z4-fEK">
+                                <rect key="frame" x="97" y="489" width="181" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="GdF-29-7pT"/>
+                                    <constraint firstAttribute="height" constant="31" id="nSl-b4-XUb"/>
+                                </constraints>
+                                <state key="normal" title="DIRECTIONS">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onDirectionButtonTappedd:" destination="330-DT-zGd" eventType="touchUpInside" id="DGr-Aq-7Vd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1jG-lk-nbb" firstAttribute="centerX" secondItem="mGO-Jt-fOv" secondAttribute="centerX" id="43i-OC-w4C"/>
+                            <constraint firstItem="S5q-z4-fEK" firstAttribute="top" secondItem="1jG-lk-nbb" secondAttribute="bottom" constant="26" id="6bp-3f-7AG"/>
                             <constraint firstItem="e2z-qu-ZKG" firstAttribute="centerX" secondItem="mGO-Jt-fOv" secondAttribute="centerX" id="WCi-hn-hhS"/>
                             <constraint firstItem="As0-pH-sSi" firstAttribute="top" secondItem="reg-Hy-gNZ" secondAttribute="top" constant="89" id="Zfl-al-8Tb"/>
                             <constraint firstItem="As0-pH-sSi" firstAttribute="centerX" secondItem="mGO-Jt-fOv" secondAttribute="centerX" id="epz-uh-Thu"/>
                             <constraint firstItem="e2z-qu-ZKG" firstAttribute="top" secondItem="As0-pH-sSi" secondAttribute="bottom" constant="33" id="kQh-kf-aEs"/>
+                            <constraint firstItem="reg-Hy-gNZ" firstAttribute="bottom" secondItem="S5q-z4-fEK" secondAttribute="bottom" constant="147" id="qat-6b-5kR"/>
                             <constraint firstItem="1jG-lk-nbb" firstAttribute="top" secondItem="e2z-qu-ZKG" secondAttribute="bottom" constant="27" id="s7I-ll-iKB"/>
+                            <constraint firstItem="S5q-z4-fEK" firstAttribute="centerX" secondItem="1jG-lk-nbb" secondAttribute="centerX" id="w5f-ay-Ejy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="reg-Hy-gNZ"/>
                     </view>
@@ -102,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncX-c6-ajJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1797" y="135"/>
+            <point key="canvasLocation" x="1796" y="134.48275862068968"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qPL-jU-UZf">
