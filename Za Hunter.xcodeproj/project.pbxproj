@@ -12,6 +12,7 @@
 		75B10D2F20F662A100BF80D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B10D2D20F662A100BF80D0 /* Main.storyboard */; };
 		75B10D3120F662A200BF80D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B10D3020F662A200BF80D0 /* Assets.xcassets */; };
 		75B10D3420F662A200BF80D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B10D3220F662A200BF80D0 /* LaunchScreen.storyboard */; };
+		75B10D3C20F6869E00BF80D0 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D3B20F6869E00BF80D0 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		75B10D3020F662A200BF80D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B10D3320F662A200BF80D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75B10D3520F662A200BF80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B10D3B20F6869E00BF80D0 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				75B10D2920F662A100BF80D0 /* AppDelegate.swift */,
 				75B10D2B20F662A100BF80D0 /* ViewController.swift */,
+				75B10D3B20F6869E00BF80D0 /* LocationDetailsViewController.swift */,
 				75B10D2D20F662A100BF80D0 /* Main.storyboard */,
 				75B10D3020F662A200BF80D0 /* Assets.xcassets */,
 				75B10D3220F662A200BF80D0 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B10D3C20F6869E00BF80D0 /* LocationDetailsViewController.swift in Sources */,
 				75B10D2C20F662A100BF80D0 /* ViewController.swift in Sources */,
 				75B10D2A20F662A100BF80D0 /* AppDelegate.swift in Sources */,
 			);
