@@ -40,14 +40,15 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations.first!
-        let center = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
-        let span = MKCoordinateSpanMake(0.025, 0.025)
+        var center = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
+   
+        let span = MKCoordinateSpanMake(0.082, 0.082)
         region = MKCoordinateRegionMake(center, span)
         map.setRegion(region, animated: true)
     }
     func mapViewDidFinishLoadingMap(_ mapView: MKMapView) {
         let request = MKLocalSearchRequest()
-        request.naturalLanguageQuery = "pizza"
+        request.naturalLanguageQuery = "recycle"
         request.region = region
         let search = MKLocalSearch(request: request)
         search.start { (response, error) in
@@ -85,7 +86,12 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
                 selectedMapItem = mapItem
             }
         }
-    }
+
+       
+       
+        }
+
+    
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         performSegue(withIdentifier: "ShowLocationDetailsSegue", sender: nil)
@@ -94,6 +100,11 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
         if let destination = segue.destination as? LocationDetailsViewController {
             destination.selectedMapItem = selectedMapItem
         }
+    }
+    
+    
+    @IBAction func done(_ sender: Any) {
+        exit(0)
     }
     
 }
