@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7514AF8F245DBDC70069D8E3 /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514AF8E245DBDC70069D8E3 /* calculatorViewController.swift */; };
 		75B10D2A20F662A100BF80D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D2920F662A100BF80D0 /* AppDelegate.swift */; };
 		75B10D2C20F662A100BF80D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D2B20F662A100BF80D0 /* ViewController.swift */; };
 		75B10D2F20F662A100BF80D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B10D2D20F662A100BF80D0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7514AF8E245DBDC70069D8E3 /* calculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
 		75B10D2620F662A100BF80D0 /* Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B10D2920F662A100BF80D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75B10D2B20F662A100BF80D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +61,9 @@
 				75B10D2920F662A100BF80D0 /* AppDelegate.swift */,
 				75B10D2B20F662A100BF80D0 /* ViewController.swift */,
 				75B10D3B20F6869E00BF80D0 /* LocationDetailsViewController.swift */,
-				75B10D2D20F662A100BF80D0 /* Main.storyboard */,
+				7514AF8E245DBDC70069D8E3 /* calculatorViewController.swift */,
 				75B10D3020F662A200BF80D0 /* Assets.xcassets */,
+				75B10D2D20F662A100BF80D0 /* Main.storyboard */,
 				75B10D3220F662A200BF80D0 /* LaunchScreen.storyboard */,
 				75B10D3520F662A200BF80D0 /* Info.plist */,
 			);
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75B10D2120F662A100BF80D0 /* Build configuration list for PBXProject "Za Hunter" */;
+			buildConfigurationList = 75B10D2120F662A100BF80D0 /* Build configuration list for PBXProject "sanya" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,6 +143,7 @@
 			files = (
 				75B10D3C20F6869E00BF80D0 /* LocationDetailsViewController.swift in Sources */,
 				75B10D2C20F662A100BF80D0 /* ViewController.swift in Sources */,
+				7514AF8F245DBDC70069D8E3 /* calculatorViewController.swift in Sources */,
 				75B10D2A20F662A100BF80D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNU77CHZ7;
 				INFOPLIST_FILE = "Za Hunter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNU77CHZ7;
 				INFOPLIST_FILE = "Za Hunter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75B10D2120F662A100BF80D0 /* Build configuration list for PBXProject "Za Hunter" */ = {
+		75B10D2120F662A100BF80D0 /* Build configuration list for PBXProject "sanya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75B10D3620F662A200BF80D0 /* Debug */,
